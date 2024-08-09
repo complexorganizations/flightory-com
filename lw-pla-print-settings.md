@@ -1,150 +1,413 @@
-# Print Settings - Flightory
+## Types of LW-PLA
 
-Discover the details of Flightory aircraft designs. Optimize 3D printing with Active Foaming and Prefoamed LW-PLA using Ultimaker Cura Slicer.
+On the market, there are many types of LW-PLA available. The key difference among them is whether they are in the prefoamed or active foaming technology. Both types of filaments are well-suited for printing airplanes; however, recommended print settings will differ between them. Prefoamed filaments are typically more expensive, but they offer the potential for higher print quality and a lower risk of artifacts that may occasionally occur during active foaming printing.
 
----
+## How are Flightory aircraft designed?
 
-## LW-PLA Print Settings
+Flightory airplanes are designed primarily for printing with LW-PLA, with additional components printed from rigid materials such as PET-G, PLA, or ABS. Each airplane has its own instructions, specifying settings for infill and wall line count for each individual part. The general rule is to print fuselages with a gyroid infill of 3%, while wings should be printed with a cubic subdivision infill of 3%. If there are any exceptions, they are noted in the instructions for a specific aircraft. Infill settings and wall thickness can be configured and changed; however, the selected settings represent an optimal compromise between the durability and strength of the airframe and its weight. The airplanes are designed to be printable on standard, inexpensive printers with a small working area. Most elements fit within a 220x220x250mm working area. Prototypes are tested on Tarantula Pro printers with a standard 0.4mm nozzle. Many users, however, choose to make modifications and experiment with other materials, such as printing whole airframes with ABS, PLA, or other harder materials. While this is possible, it should be noted that it may result in increased weight and require different settings optimized for the specific material being used.
 
-### **General Settings**
+## Optimal print settings
 
-- **Layer Height**: 0.2 mm
-- **Wall Line Count**: 2
-- **Wall Thickness**: 0.8 mm
-- **Top Layers**: 4
-- **Bottom Layers**: 4
-- **Infill Density**: 12%
-- **Infill Pattern**: Grid
+The recommended slicer for Flightory models is Ultimaker Cura, as it offers extensive configuration possibilities and produces great printing results. Below are detailed settings for Active Foaming and Prefoamed LW-PLA. Many settings overlap, but there are specific differences in temperature, retract, and flow. If you want to use other slicers, you can experiment based on these settings. Below are the detailed print settings for Cura Slicer.
 
-### **Speed Settings**
+## Filament used for printing Flightory prototypes
 
-- **Print Speed**: 50 mm/s
-- **Wall Speed**: 25 mm/s
-- **Travel Speed**: 150 mm/s
-- **Initial Layer Speed**: 20 mm/s
+Below are the detailed print settings in the Cura slicer for active foaming and prefoamed LW-PLA. It’s important to note that the filaments used for these settings are eSUN ePLA-LW (active foaming) and Polymaker Polylite LW-PLA (prefoamed). Other manufacturers’ filaments can also be used successfully, but there may be some differences between them that might require tuning the settings, such as slight adjustments in temperature, flow, retraction, etc. Feel free to experiment and share your experiences with the **community.**
 
-### **Temperature Settings**
+## Active Foaming LW-PLA Settings
 
-- **Printing Temperature**: 220°C
-- **Build Plate Temperature**: 60°C
-- **Fan Speed**: 50%
-- **Initial Layer Fan Speed**: 0%
-- **Final Layer Fan Speed**: 100%
+| Quality                     |        |
+|-----------------------------|--------|
+| Layer Height                | 0.25 mm|
+| Initial Layer Height        | 0.25 mm|
+| Line Width                  | 0.4 mm |
+| Wall Line Width             | 0.4 mm |
+| Outer Wall Line Width       | 0.4 mm |
+| Inner Wall(s) Line Width    | 0.4 mm |
+| Top/Bottom Line Width       | 0.4 mm |
+| Infill Line Width           | 0.4 mm |
+| Skirt/Brim Line Width       | 0.4 mm |
+| Initial Layer Line Width    | 100%   |
 
-### **Material Flow**
+### Walls
 
-- **Initial Flow**: 100%
-- **Final Flow**: 50%
-- **Flow Rate Adjustment**: Adjust depending on model
+| Walls                       |        |
+|-----------------------------|--------|
+| Wall Thickness              | 0.4 mm |
+| Wall Line Count             | 1      |
+| Outer Wall Wipe Distance    | 0.0 mm |
+| Outer Wall Inset            | 0.0 mm |
+| Optimize Wall Printing Order| ✅     |
+| Wall Ordering               | Inside to Outside |
+| Alternate Extra Wall        | ⬜     |
+| Print Thin Walls            | ✅     |
+| Horizontal Expansion        | 0.0 mm |
+| Initial Layer Horizontal Expansion | 0.0 mm |
+| Hole Horizontal Expansion   | 0.0 mm |
+| Z Seam Alignment            | Sharpest Corner |
+| Seam Corner Preference      | Smart Hiding |
 
-### **Retraction Settings**
+### Top/Bottom
 
-- **Retraction Distance**: 5 mm
-- **Retraction Speed**: 40 mm/s
-- **Minimum Travel Distance**: 1.5 mm
+| Top/Bottom                  |        |
+|-----------------------------|--------|
+| Top Surface Skin Layers     | 0      |
+| Top/Bottom Thickness        | 0.75 mm|
+| Top Thickness               | 0.75 mm|
+| Top Layers                  | 3      |
+| Bottom Thickness            | 0.75 mm|
+| Bottom Layers               | 3      |
+| Top/Bottom Pattern          | Lines  |
+| Bottom Pattern Initial Layer| Lines  |
+| Monotonic Top/Bottom Order  | ⬜     |
+| Top/Bottom Line Directions  | ⬜     |
+| No Skin in Z Gaps           | ⬜     |
+| Extra Skin Wall Count       | 1      |
+| Enable Ironing              | ⬜     |
+| Skin Overlap Percentage     | 10%    |
+| Skin Overlap                | 0.04 mm|
+| Skin Removal Width          | 0.4 mm |
+| Top Skin Removal Width      | 0.4 mm |
+| Bottom Skin Removal Width   | 0.4 mm |
+| Skin Expand Distance        | 0.4 mm |
+| Top Skin Expand Distance    | 0.4 mm |
+| Bottom Skin Expand Distance | 0.4 mm |
+| Maximum Skin Angle for Expansion | 90° |
+| Minimum Skin Width for Expansion | 0.0 mm |
 
-### **Support Settings**
+### Infill (Gyroid)
 
-- **Generate Support**: No
-- **Support Overhang Angle**: 50°
-- **Support Density**: 15%
+| Infill (Gyroid)             |        |
+|-----------------------------|--------|
+| Infill Density              | 3%     |
+| Infill Line Distance        | 13.333 mm |
+| Infill Pattern              | Gyroid |
+| Connect Infill Lines        | ⬜     |
+| Randomize Infill Start      | ⬜     |
+| Infill Line Multiplier      | 1      |
+| Extra Infill Wall Count     | 0      |
+| Infill Overlap Percentage   | 10%    |
+| Infill Overlap              | 0.04 mm|
+| Infill Wipe Distance        | 0.1 mm |
+| Infill Layer Thickness      | 0.25 mm|
+| Gradual Infill Steps        | 0      |
+| Infill Before Walls         | ⬜     |
+| Infill Minimum Area         | 0.0 mm |
+| Infill Support              | ⬜     |
+| Skin Edge Support Thickness | 0.0 mm |
+| Skin Edge Support Layers    | 0      |
 
-### **Build Plate Adhesion**
+### Infill (Cubic Subdivision)
 
-- **Build Plate Adhesion Type**: Skirt
-- **Skirt Line Count**: 3
-- **Skirt Distance**: 10 mm
+| Infill (Cubic Subdivision)  |        |
+|-----------------------------|--------|
+| Infill Density              | 3%     |
+| Infill Line Distance        | 40.0 mm|
+| Infill Pattern              | Cubic Subdivision |
+| Infill Line Directions      | ⬜     |
+| Randomize Infill Start      | ⬜     |
+| Infill Line Multiplier      | 1      |
+| Cubic Subdivision Shell     | 0.4 mm |
+| Infill Overlap Percentage   | 10%    |
+| Infill Overlap              | 0.04 mm|
+| Infill Wipe Distance        | 0.1 mm |
+| Infill Layer Thickness      | 0.25 mm|
+| Gradual Infill Steps        | 0      |
+| Infill Before Walls         | ⬜     |
+| Infill Minimum Area         | 0.0 mm |
+| Infill Support              | ⬜     |
+| Skin Edge Support Thickness | 0.0 mm |
+| Skin Edge Support Layers    | 0      |
 
-### **Dual Extrusion**
+### Material
 
-- **Extruder 1**: PLA
-- **Extruder 2**: Not used
+| Material                    |        |
+|-----------------------------|--------|
+| Printing Temperature        | 235 °C |
+| Printing Temperature Initial Layer | 235 °C |
+| Initial Printing Temperature| 235 °C |
+| Final Printing Temperature  | 235 °C |
+| Build Plate Temperature     | 60 °C  |
+| Build Plate Temperature Initial Layer | 60 °C |
+| Scaling Factor Shrinkage Compensation | 100% |
+| Horizontal Scaling Factor Shrinkage Compensation | 100% |
+| Vertical Scaling Factor Shrinkage Compensation | 100% |
+| Flow                        | 60%    |
+| Wall Flow                   | 60%    |
+| Outer Wall Flow             | 60%    |
+| Inner Wall(s) Flow          | 60%    |
+| Top/Bottom Flow             | 60%    |
+| Infill Flow                 | 60%    |
+| Skirt/Brim Flow             | 60%    |
+| Prime Tower Flow            | 60%    |
+| Initial Layer Flow          | 80%    |
 
-### **Notes**
+### Speed
 
-- Use Ultimaker Cura Slicer for optimal results.
-- Adjust flow settings depending on specific model requirements.
-- Active foaming is recommended for lightweight parts.
-- Prefoamed LW-PLA should be used at lower flow rates to achieve desired weight reduction.
-- Ensure proper cooling for small and delicate parts.
-- Test prints recommended to fine-tune settings.
+| Speed                       |        |
+|-----------------------------|--------|
+| Print Speed                 | 60 mm/s|
+| Infill Speed                | 60 mm/s|
+| Wall Speed                  | 30 mm/s|
+| Outer Wall Speed            | 30 mm/s|
+| Inner Wall Speed            | 30 mm/s|
+| Top/Bottom Speed            | 30 mm/s|
+| Travel Speed                | 120 mm/s|
+| Initial Layer Speed         | 30 mm/s|
+| Initial Layer Print Speed   | 30 mm/s|
+| Initial Layer Travel Speed  | 120 mm/s|
+| Skirt/Brim Speed            | 30 mm/s|
+| Number of Slower Layers     | 2      |
+| Flow Equalization Ratio     | 100%   |
+| Enable Acceleration Control | ⬜     |
+| Enable Jerk Control         | ⬜     |
 
----
+### Travel
 
-## Prefoamed LW-PLA Print Settings
+| Travel                      |        |
+|-----------------------------|--------|
+| Enable Retraction           | ✅     |
+| Retract at Layer Change     | ⬜     |
+| Retraction Distance         | 0.0 mm |
+| Retraction Speed            | 35 mm/s|
+| Retraction Retract Speed    | 35 mm/s|
+| Retraction Prime Speed      | 35 mm/s|
+| Retraction Extra Prime Amount | 0.3 mm |
+| Retraction Minimum Travel   | 1.5 mm |
+| Maximum Retraction Count    | 90     |
+| Minimum Extrusion Distance Window | 6.5 mm |
+| Combing Mode                | All    |
+| Avoid Supports When Traveling | ✅   |
+| Travel Avoid Distance       | 0.625 mm |
+| Layer Start X               | 0.0 mm |
+| Layer Start Y               | 0.0 mm |
+| Z Hop When Retracted        | ⬜     |
 
-### **General Settings**
+### Cooling
 
-- **Layer Height**: 0.15 mm
-- **Wall Line Count**: 3
-- **Wall Thickness**: 0.45 mm
-- **Top Layers**: 5
-- **Bottom Layers**: 5
-- **Infill Density**: 10%
-- **Infill Pattern**: Concentric
+| Cooling                     |        |
+|-----------------------------|--------|
+| Enable Print Cooling        | ⬜     |
+| Regular/Maximum Fan Speed Threshold | 10 s |
+| Regular Fan Speed at Height | 0.27 mm|
+| Regular Fan Speed at Layer  | 2      |
+| Minimum Layer Time          | 2.0 s  |
+| Maximum Speed               | 10 mm/s|
+| Lift Head                   | ⬜     |
 
-### **Speed Settings**
+### Support
 
-- **Print Speed**: 40 mm/s
-- **Wall Speed**: 20 mm/s
-- **Travel Speed**: 120 mm/s
-- **Initial Layer Speed**: 15 mm/s
+| Support                     |        |
+|-----------------------------|--------|
+| Generate Support            | ⬜     |
 
-### **Temperature Settings**
+### Build Plate Adhesion
 
-- **Printing Temperature**: 210°C
-- **Build Plate Temperature**: 55°C
-- **Fan Speed**: 40%
-- **Initial Layer Fan Speed**: 0%
-- **Final Layer Fan Speed**: 100%
+| Build Plate Adhesion        |        |
+|-----------------------------|--------|
+| Build Plate Adhesion Type   | Brim   |
+| Skirt/Brim Minimum Length   | 250 mm |
+| Brim Width                  | 8.0 mm |
+| Brim Line Count             | 20     |
+| Brim Distance               | 0.0 mm |
+| Brim Only on Outside        | ✅     |
 
-### **Material Flow**
+## Prefoamed LW-PLA Settings
 
-- **Initial Flow**: 80%
-- **Final Flow**: 40%
-- **Flow Rate Adjustment**: Necessary for lighter models
+| Quality                     |        |
+|-----------------------------|--------|
+| Layer Height                | 0.25 mm|
+| Initial Layer Height        | 0.25 mm|
+| Line Width                  | 0.4 mm |
+| Wall Line Width             | 0.4 mm |
+| Outer Wall Line Width       | 0.4 mm |
+| Inner Wall(s) Line Width    | 0.4 mm |
+| Top/Bottom Line Width       | 0.4 mm |
+| Infill Line Width           | 0.4 mm |
+| Skirt/Brim Line Width       | 0.4 mm |
+| Initial Layer Line Width    | 100%   |
 
-### **Retraction Settings**
+### Walls
 
-- **Retraction Distance**: 4.5 mm
-- **Retraction Speed**: 35 mm/s
-- **Minimum Travel Distance**: 1.2 mm
+| Walls                       |        |
+|-----------------------------|--------|
+| Wall Thickness              | 0.4 mm |
+| Wall Line Count             | 1      |
+| Outer Wall Wipe Distance    | 0.0 mm |
+| Outer Wall Inset            | 0.0 mm |
+| Optimize Wall Printing Order| ✅     |
+| Wall Ordering               | Inside to Outside |
+| Alternate Extra Wall        | ⬜     |
+| Print Thin Walls            | ✅     |
+| Horizontal Expansion        | 0.0 mm |
+| Initial Layer Horizontal Expansion | 0.0 mm |
+| Hole Horizontal Expansion   | 0.0 mm |
+| Z Seam Alignment            | Sharpest Corner |
+| Seam Corner Preference      | Smart Hiding |
 
-### **Support Settings**
+### Top/Bottom
 
-- **Generate Support**: Yes
-- **Support Overhang Angle**: 55°
-- **Support Density**: 20%
+| Top/Bottom                  |        |
+|-----------------------------|--------|
+| Top Surface Skin Layers     | 0      |
+| Top/Bottom Thickness        | 0.75 mm|
+| Top Thickness               | 0.75 mm|
+| Top Layers                  | 3      |
+| Bottom Thickness            | 0.75 mm|
+| Bottom Layers               | 3      |
+| Top/Bottom Pattern          | Lines  |
+| Bottom Pattern Initial Layer| Lines  |
+| Monotonic Top/Bottom Order  | ⬜     |
+| Top/Bottom Line Directions  | ⬜     |
+| No Skin in Z Gaps           | ⬜     |
+| Extra Skin Wall Count       | 1      |
+| Enable Ironing              | ⬜     |
+| Skin Overlap Percentage     | 10%    |
+| Skin Overlap                | 0.04 mm|
+| Skin Removal Width          | 0.4 mm |
+| Top Skin Removal Width      | 0.4 mm |
+| Bottom Skin Removal Width   | 0.4 mm |
+| Skin Expand Distance        | 0.4 mm |
+| Top Skin Expand Distance    | 0.4 mm |
+| Bottom Skin Expand Distance | 0.4 mm |
+| Maximum Skin Angle for Expansion | 90° |
+| Minimum Skin Width for Expansion | 0.0 mm |
 
-### **Build Plate Adhesion**
+### Infill (Gyroid)
 
-- **Build Plate Adhesion Type**: Brim
-- **Brim Width**: 8 mm
+| Infill (Gyroid)             |        |
+|-----------------------------|--------|
+| Infill Density              | 3%     |
+| Infill Line Distance        | 13.333 mm |
+| Infill Pattern              | Gyroid |
+| Connect Infill Lines        | ⬜     |
+| Randomize Infill Start      | ⬜     |
+| Infill Line Multiplier      | 1      |
+| Extra Infill Wall Count     | 0      |
+| Infill Overlap Percentage   | 10%    |
+| Infill Overlap              | 0.04 mm|
+| Infill Wipe Distance        | 0.1 mm |
+| Infill Layer Thickness      | 0.25 mm|
+| Gradual Infill Steps        | 0      |
+| Infill Before Walls         | ⬜     |
+| Infill Minimum Area         | 0.0 mm |
+| Infill Support              | ⬜     |
+| Skin Edge Support Thickness | 0.0 mm |
+| Skin Edge Support Layers    | 0      |
 
-### **Dual Extrusion**
+### Infill (Cubic Subdivision)
 
-- **Extruder 1**: PLA
-- **Extruder 2**: Not used
+| Infill (Cubic Subdivision)  |        |
+|-----------------------------|--------|
+| Infill Density              | 3%     |
+| Infill Line Distance        | 40.0 mm|
+| Infill Pattern              | Cubic Subdivision |
+| Infill Line Directions      | ⬜     |
+| Randomize Infill Start      | ⬜     |
+| Infill Line Multiplier      | 1      |
+| Cubic Subdivision Shell     | 0.4 mm |
+| Infill Overlap Percentage   | 10%    |
+| Infill Overlap              | 0.04 mm|
+| Infill Wipe Distance        | 0.1 mm |
+| Infill Layer Thickness      | 0.25 mm|
+| Gradual Infill Steps        | 0      |
+| Infill Before Walls         | ⬜     |
+| Infill Minimum Area         | 0.0 mm |
+| Infill Support              | ⬜     |
+| Skin Edge Support Thickness | 0.0 mm |
+| Skin Edge Support Layers    | 0      |
 
-### **Notes**
+### Material
 
-- Prefoamed LW-PLA should be printed at lower temperatures for better results.
-- Brim adhesion is crucial for larger prints.
-- Additional cooling may be required for intricate details.
-- Test different flow rates to find the optimal balance between weight and strength.
-- Dual extrusion not typically used with this material.
+| Material                    |        |
+|-----------------------------|--------|
+| Printing Temperature        | 210 °C |
+| Printing Temperature Initial Layer | 210 °C |
+| Initial Printing Temperature| 210 °C |
+| Final Printing Temperature  | 210 °C |
+| Build Plate Temperature     | 60 °C  |
+| Build Plate Temperature Initial Layer | 60 °C |
+| Scaling Factor Shrinkage Compensation | 100% |
+| Horizontal Scaling Factor Shrinkage Compensation | 100% |
+| Vertical Scaling Factor Shrinkage Compensation | 100% |
+| Flow                        | 100%   |
+| Wall Flow                   | 100%   |
+| Outer Wall Flow             | 100%   |
+| Inner Wall(s) Flow          | 100%   |
+| Top/Bottom Flow             | 100%   |
+| Infill Flow                 | 100%   |
+| Skirt/Brim Flow             | 100%   |
+| Prime Tower Flow            | 100%   |
+| Initial Layer Flow          | 100%   |
 
----
+### Speed
 
-## Additional Resources
+| Speed                       |        |
+|-----------------------------|--------|
+| Print Speed                 | 60 mm/s|
+| Infill Speed                | 60 mm/s|
+| Wall Speed                  | 30 mm/s|
+| Outer Wall Speed            | 30 mm/s|
+| Inner Wall Speed            | 30 mm/s|
+| Top/Bottom Speed            | 30 mm/s|
+| Travel Speed                | 120 mm/s|
+| Initial Layer Speed         | 30 mm/s|
+| Initial Layer Print Speed   | 30 mm/s|
+| Initial Layer Travel Speed  | 120 mm/s|
+| Skirt/Brim Speed            | 30 mm/s|
+| Number of Slower Layers     | 2      |
+| Flow Equalization Ratio     | 100%   |
+| Enable Acceleration Control | ⬜     |
+| Enable Jerk Control         | ⬜     |
 
-- [Flightory Aircraft Designs](https://flightory.com/aircraft-designs)
-- [Ultimaker Cura Slicer](https://ultimaker.com/software/ultimaker-cura)
-- [Active Foaming Techniques](https://flightory.com/active-foaming)
-- [Prefoamed LW-PLA Guide](https://flightory.com/prefoamed-lw-pla)
+### Travel
 
----
+| Travel                      |        |
+|-----------------------------|--------|
+| Enable Retraction           | ✅     |
+| Retract at Layer Change     | ⬜     |
+| Retraction Distance         | 6.0 mm |
+| Retraction Speed            | 50 mm/s|
+| Retraction Retract Speed    | 50 mm/s|
+| Retraction Prime Speed      | 50 mm/s|
+| Retraction Extra Prime Amount | 0.0 mm |
+| Retraction Minimum Travel   | 1.5 mm |
+| Maximum Retraction Count    | 90     |
+| Minimum Extrusion Distance Window | 6.5 mm |
+| Combing Mode                | All    |
+| Avoid Supports When Traveling | ✅   |
+| Travel Avoid Distance       | 0.625 mm |
+| Layer Start X               | 0.0 mm |
+| Layer Start Y               | 0.0 mm |
+| Z Hop When Retracted        | ⬜     |
 
-## Feedback
+### Cooling
 
-We value your feedback to improve our print settings guide. Please [contact us](https://flightory.com/contact) with any suggestions or questions.
+| Cooling                     |        |
+|-----------------------------|--------|
+| Enable Print Cooling        | ✅     |
+| Regular/Maximum Fan Speed Threshold | 10 s |
+| Regular Fan Speed at Height | 0.27 mm|
+| Regular Fan Speed at Layer  | 2      |
+| Minimum Layer Time          | 2.0 s  |
+| Maximum Speed               | 10 mm/s|
+| Lift Head                   | ⬜     |
+
+### Support
+
+| Support                     |        |
+|-----------------------------|--------|
+| Generate Support            | ⬜     |
+
+### Build Plate Adhesion
+
+| Build Plate Adhesion        |        |
+|-----------------------------|--------|
+| Build Plate Adhesion Type   | Brim   |
+| Skirt/Brim Minimum Length   | 250 mm |
+| Brim Width                  | 8.0 mm |
+| Brim Line Count             | 20     |
+| Brim Distance               | 0.0 mm |
+| Brim Only on Outside        | ✅     |
+
+These settings are intended to optimize the printing process for Prefoamed LW-PLA, ensuring a balance between print quality and material efficiency. Adjustments may be necessary based on specific printer models and environmental conditions.
