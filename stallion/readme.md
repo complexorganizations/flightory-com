@@ -23,27 +23,27 @@ The Stallion's aerodynamic design is optimized using CFD analysis and real-world
 
 ## Required Accessories
 
-| Item                                  | Quantity |
-|---------------------------------------|----------|
-| 10x800mm Carbon Tube (MAIN SPAR)      | 1        |
-| 8x600mm Carbon Tube (SECONDARY SPAR)  | 2        |
-| 6x430mm Carbon Tube (WING SPAR)       | 2        |
-| 16x435mm Carbon Tube (TAIL BOOM)      | 1        |
-| 4x260mm Carbon Tube (V TAIL SPAR)     | 4        |
-| Thin CA Glue                          | 20g tube |
-| CA Activator                          | 1 (optional) |
-| M3 Threaded Insert (Outer Ø5mm, height 5mm) | 18   |
-| M3 screw                              | 22       |
-| M3 nut                                | 4        |
-| LW-PLA                                | 1 roll   |
-| PETG                                  | Small amount |
-| Polyester hinge 25x20mm               | 14       |
-| Pen spring                            | 2        |
-| Velcro strap                          | 2        |
-| Servo extension cable                 | 4        |
-| 2812 ARM LED (NAV LIGHTS)             | 3 (optional) |
-| Control Horn                          | 1        |
-| Pushrod                               | 1        |
+| Item                                        | Quantity     |
+| ------------------------------------------- | ------------ |
+| 10x800mm Carbon Tube (MAIN SPAR)            | 1            |
+| 8x600mm Carbon Tube (SECONDARY SPAR)        | 2            |
+| 6x430mm Carbon Tube (WING SPAR)             | 2            |
+| 16x435mm Carbon Tube (TAIL BOOM)            | 1            |
+| 4x260mm Carbon Tube (V TAIL SPAR)           | 4            |
+| Thin CA Glue                                | 20g tube     |
+| CA Activator                                | 1 (optional) |
+| M3 Threaded Insert (Outer Ø5mm, height 5mm) | 18           |
+| M3 screw                                    | 22           |
+| M3 nut                                      | 4            |
+| LW-PLA                                      | 1 roll       |
+| PETG                                        | Small amount |
+| Polyester hinge 25x20mm                     | 14           |
+| Pen spring                                  | 2            |
+| Velcro strap                                | 2            |
+| Servo extension cable                       | 4            |
+| 2812 ARM LED (NAV LIGHTS)                   | 3 (optional) |
+| Control Horn                                | 1            |
+| Pushrod                                     | 1            |
 
 ## Recommended Electronics
 

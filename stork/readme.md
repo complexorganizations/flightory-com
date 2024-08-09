@@ -16,25 +16,25 @@ Stork's aerodynamic design ensures a stable flight, reducing the need for trimmi
 
 ## Required Accessories
 
-| Item                                  | Quantity |
-|---------------------------------------|----------|
-| 12x650mm Carbon Tube (MAIN SPAR)      | 1        |
-| 8x650mm Carbon Tube (SECOND SPAR)     | 1        |
-| 8x380mm Carbon Tube (SPAR)            | 2        |
-| 4x100mm Carbon Tube (VTAIL SPAR)      | 2        |
-| 4x190mm Carbon Tube (VTAIL SPAR)      | 2        |
-| Thin CA Glue                          | 20g tube |
-| CA Activator                          | 1 (optional) |
-| M3 Threaded Insert (Outer Ø5mm, height 5mm) | 18   |
-| M3 screw                              | 18       |
-| Plastic M6x45mm screw                 | 4        |
-| M6 nut                                | 8        |
-| LW-PLA                                | 1 roll   |
-| PLA                                   | Small amount |
-| Polyester hinge 20x25mm               | 14       |
-| Pen spring                            | 2        |
-| Velcro strap                          | 2        |
-| Servo extension cable                 | 2 (optional) |
+| Item                                        | Quantity     |
+| ------------------------------------------- | ------------ |
+| 12x650mm Carbon Tube (MAIN SPAR)            | 1            |
+| 8x650mm Carbon Tube (SECOND SPAR)           | 1            |
+| 8x380mm Carbon Tube (SPAR)                  | 2            |
+| 4x100mm Carbon Tube (VTAIL SPAR)            | 2            |
+| 4x190mm Carbon Tube (VTAIL SPAR)            | 2            |
+| Thin CA Glue                                | 20g tube     |
+| CA Activator                                | 1 (optional) |
+| M3 Threaded Insert (Outer Ø5mm, height 5mm) | 18           |
+| M3 screw                                    | 18           |
+| Plastic M6x45mm screw                       | 4            |
+| M6 nut                                      | 8            |
+| LW-PLA                                      | 1 roll       |
+| PLA                                         | Small amount |
+| Polyester hinge 20x25mm                     | 14           |
+| Pen spring                                  | 2            |
+| Velcro strap                                | 2            |
+| Servo extension cable                       | 2 (optional) |
 
 ## Recommended Electronics
 

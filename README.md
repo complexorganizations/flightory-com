@@ -9,6 +9,7 @@ Feel free to **clone** or **fork** this repository to make use of the code and r
 ## Backup and Sharing
 
 To ensure the longevity of the project, we encourage you to:
+
 - **Clone** or **fork** the repository to your own GitHub account.
 - **Share** the repository link with others who might benefit from it.
 - **Torrent** the repository contents if you wish to create additional backups. This helps ensure that the project remains accessible even if the main repository goes down.

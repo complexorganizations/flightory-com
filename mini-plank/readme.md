@@ -21,19 +21,19 @@ The Mini Plank's aerodynamic design ensures stability and good flight characteri
 
 ## Required Accessories
 
-| Item                                  | Quantity |
-|---------------------------------------|----------|
-| 4x645mm Carbon Tube (MAIN SPAR)       | 1        |
-| 4x310mm Carbon Tube (SPAR)            | 1        |
-| Thin CA Glue                          | 1        |
-| CA Activator                          | 1        |
-| M3 Threaded Insert (Outer Ø5mm, height 5mm) | 2    |
-| M3 screw                              | 6        |
-| LW-PLA                                | About 150g |
-| PLA                                   | Small amount |
-| Polyester hinge 20x25mm               | 6        |
-| Pen spring                            | 1        |
-| Adhesive velcro                       | 1        |
+| Item                                        | Quantity     |
+| ------------------------------------------- | ------------ |
+| 4x645mm Carbon Tube (MAIN SPAR)             | 1            |
+| 4x310mm Carbon Tube (SPAR)                  | 1            |
+| Thin CA Glue                                | 1            |
+| CA Activator                                | 1            |
+| M3 Threaded Insert (Outer Ø5mm, height 5mm) | 2            |
+| M3 screw                                    | 6            |
+| LW-PLA                                      | About 150g   |
+| PLA                                         | Small amount |
+| Polyester hinge 20x25mm                     | 6            |
+| Pen spring                                  | 1            |
+| Adhesive velcro                             | 1            |
 
 ## Recommended Electronics
 

@@ -23,24 +23,24 @@ The Super Stingray utilizes the Selig S5020 airfoil, offering superior aerodynam
 
 ## Required Accessories
 
-| Item                                  | Quantity |
-|---------------------------------------|----------|
-| 12x460mm Carbon Tube (MAIN SPAR)      | 1        |
-| 6x680mm Carbon Tube (SECONDARY SPAR)  | 1        |
-| 6x350mm Carbon Tube (WING SPAR)       | 2        |
-| Thin CA Glue                          | 20g tube |
-| CA Activator                          | 1 (optional but useful) |
-| M3 Threaded Insert (Outer Ø5mm, height 5mm) | 16   |
-| M3 screw                              | 22       |
-| M3 nut                                | 4        |
-| LW-PLA                                | 1 roll   |
-| PETG                                  | Small amount |
-| Polyester CA hinge 25x20mm            | 8        |
-| Pen spring                            | 2        |
-| Velcro strap                          | 2        |
-| Servo extension cable                 | 2        |
-| Control Horn                          | 2        |
-| Pushrod                               | 2        |
+| Item                                        | Quantity                |
+| ------------------------------------------- | ----------------------- |
+| 12x460mm Carbon Tube (MAIN SPAR)            | 1                       |
+| 6x680mm Carbon Tube (SECONDARY SPAR)        | 1                       |
+| 6x350mm Carbon Tube (WING SPAR)             | 2                       |
+| Thin CA Glue                                | 20g tube                |
+| CA Activator                                | 1 (optional but useful) |
+| M3 Threaded Insert (Outer Ø5mm, height 5mm) | 16                      |
+| M3 screw                                    | 22                      |
+| M3 nut                                      | 4                       |
+| LW-PLA                                      | 1 roll                  |
+| PETG                                        | Small amount            |
+| Polyester CA hinge 25x20mm                  | 8                       |
+| Pen spring                                  | 2                       |
+| Velcro strap                                | 2                       |
+| Servo extension cable                       | 2                       |
+| Control Horn                                | 2                       |
+| Pushrod                                     | 2                       |
 
 ## Recommended Electronics
 

@@ -21,24 +21,24 @@ The pico Talon is designed with optimal aerodynamic characteristics for stable a
 
 ## Required Accessories
 
-| Item                                  | Quantity |
-|---------------------------------------|----------|
-| 8x500mm Carbon Tube (SECOND SPAR)     | 1        |
-| 6x490mm Carbon Tube (SPAR)            | 2        |
-| 4x220mm Carbon Tube (VTAIL SPAR)      | 2        |
-| 4x130mm Carbon Tube (VTAIL SPAR)      | 2        |
-| Thin CA Glue                          | 20g tube |
-| CA Activator                          | 1 (optional but useful) |
-| M3 Threaded Insert (Outer Ø5mm, height 5mm) | 16   |
-| M3 screw                              | 18       |
-| Plastic M6x45mm screw                 | 4        |
-| M6 nut                                | 8        |
-| LW-PLA                                | 1 roll   |
-| PLA                                   | Small amount |
-| Polyester hinge 20x25mm               | 12       |
-| Pen spring                            | 2        |
-| Velcro strap                          | 2        |
-| Servo extension cable                 | 2 (optional) |
+| Item                                        | Quantity                |
+| ------------------------------------------- | ----------------------- |
+| 8x500mm Carbon Tube (SECOND SPAR)           | 1                       |
+| 6x490mm Carbon Tube (SPAR)                  | 2                       |
+| 4x220mm Carbon Tube (VTAIL SPAR)            | 2                       |
+| 4x130mm Carbon Tube (VTAIL SPAR)            | 2                       |
+| Thin CA Glue                                | 20g tube                |
+| CA Activator                                | 1 (optional but useful) |
+| M3 Threaded Insert (Outer Ø5mm, height 5mm) | 16                      |
+| M3 screw                                    | 18                      |
+| Plastic M6x45mm screw                       | 4                       |
+| M6 nut                                      | 8                       |
+| LW-PLA                                      | 1 roll                  |
+| PLA                                         | Small amount            |
+| Polyester hinge 20x25mm                     | 12                      |
+| Pen spring                                  | 2                       |
+| Velcro strap                                | 2                       |
+| Servo extension cable                       | 2 (optional)            |
 
 ## Recommended Electronics
 

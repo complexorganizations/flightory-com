@@ -25,15 +25,15 @@ The Stallion VTOL retains the aerodynamic efficiency and stability of the origin
 
 To convert the basic Stallion version to the VTOL configuration, the following additional accessories and electronics are required:
 
-| Item                                  | Quantity |
-|---------------------------------------|----------|
-| Motors                                | Emax ECOII 2807 1300KV / T-Motor F90 1300KV |
-| Propellers                            | 7x4 / 7x5 / 7x6 (two CCW, one CW) |
-| Servos                                | 2pcs PowerHD 1810MG / GDW DS041MG |
-| ESC                                   | 3pcs Emax Formula Series 45A BLHeli32 / Lumenier 51A |
-| Battery                               | 4S (max 4S3P 10.5Ah Li-Ion) or similar LiPo |
-| Bearings                              | 2pcs 3x8x4mm Flange Bearing |
-| Screws / Nuts / Washers               | 3 pcs M3 Screws, Nuts, and Washers |
+| Item                    | Quantity                                             |
+| ----------------------- | ---------------------------------------------------- |
+| Motors                  | Emax ECOII 2807 1300KV / T-Motor F90 1300KV          |
+| Propellers              | 7x4 / 7x5 / 7x6 (two CCW, one CW)                    |
+| Servos                  | 2pcs PowerHD 1810MG / GDW DS041MG                    |
+| ESC                     | 3pcs Emax Formula Series 45A BLHeli32 / Lumenier 51A |
+| Battery                 | 4S (max 4S3P 10.5Ah Li-Ion) or similar LiPo          |
+| Bearings                | 2pcs 3x8x4mm Flange Bearing                          |
+| Screws / Nuts / Washers | 3 pcs M3 Screws, Nuts, and Washers                   |
 
 ## Printing Settings
 

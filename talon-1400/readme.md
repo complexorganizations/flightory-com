@@ -21,23 +21,23 @@ The Talon 1400's aerodynamic design ensures high performance and longitudinal st
 
 ## Required Accessories
 
-| Item                                  | Quantity |
-|---------------------------------------|----------|
-| 10x530mm Carbon Tube (MAIN SPAR)      | 2        |
-| 6x435mm Carbon Tube (SECOND SPAR)     | 4        |
-| 4x190mm Carbon Tube (VTAIL SPAR)      | 4        |
-| Thin CA Glue                          | 20g tube |
-| CA Activator                          | 1 (optional but useful) |
-| M3 Threaded Insert                    | 20       |
-| M3 screw                              | 20       |
-| Plastic M6x45mm screw                 | 4        |
-| M6 nut                                | 4        |
-| LW-PLA                                | 1 roll   |
-| PLA                                   | Small amount |
-| Polyester hinge 20x25mm               | 12       |
-| Pen spring                            | 2        |
-| Velcro strap                          | 2        |
-| Servo extension cable                 | 2 (optional) |
+| Item                              | Quantity                |
+| --------------------------------- | ----------------------- |
+| 10x530mm Carbon Tube (MAIN SPAR)  | 2                       |
+| 6x435mm Carbon Tube (SECOND SPAR) | 4                       |
+| 4x190mm Carbon Tube (VTAIL SPAR)  | 4                       |
+| Thin CA Glue                      | 20g tube                |
+| CA Activator                      | 1 (optional but useful) |
+| M3 Threaded Insert                | 20                      |
+| M3 screw                          | 20                      |
+| Plastic M6x45mm screw             | 4                       |
+| M6 nut                            | 4                       |
+| LW-PLA                            | 1 roll                  |
+| PLA                               | Small amount            |
+| Polyester hinge 20x25mm           | 12                      |
+| Pen spring                        | 2                       |
+| Velcro strap                      | 2                       |
+| Servo extension cable             | 2 (optional)            |
 
 ## Recommended Electronics
 

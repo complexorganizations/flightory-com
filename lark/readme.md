@@ -24,26 +24,26 @@ The Lark's aerodynamic design ensures high performance and stability. The Eppler
 
 ## Required Accessories
 
-| Item                                  | Quantity |
-|---------------------------------------|----------|
-| 10x500mm Carbon Tube (MAIN SPAR)      | 1        |
-| 6x500mm Carbon Tube                   | 3        |
-| 12x430mm Carbon Tube (TAIL BOOM)      | 1        |
-| 6x200mm Carbon Tube (V STAB SPAR)     | 1        |
-| 6x384mm Carbon Tube (H STAB SPAR)     | 1        |
-| Thin CA Glue                          | 20g tube |
-| CA Activator                          | 1 (optional but useful) |
-| M3 Threaded Insert (Outer Ø5mm, height 5mm) | 13   |
-| M3 screw                              | 17       |
-| M3 nut                                | 4        |
-| LW-PLA                                | 1 roll   |
-| PETG                                  | Small amount |
-| Polyester hinge 25x20mm               | 11       |
-| Pen spring                            | 1        |
-| Velcro strap                          | 2        |
-| Servo extension cable                 | 3        |
-| Control Horn                          | 3        |
-| Pushrod                               | 3        |
+| Item                                        | Quantity                |
+| ------------------------------------------- | ----------------------- |
+| 10x500mm Carbon Tube (MAIN SPAR)            | 1                       |
+| 6x500mm Carbon Tube                         | 3                       |
+| 12x430mm Carbon Tube (TAIL BOOM)            | 1                       |
+| 6x200mm Carbon Tube (V STAB SPAR)           | 1                       |
+| 6x384mm Carbon Tube (H STAB SPAR)           | 1                       |
+| Thin CA Glue                                | 20g tube                |
+| CA Activator                                | 1 (optional but useful) |
+| M3 Threaded Insert (Outer Ø5mm, height 5mm) | 13                      |
+| M3 screw                                    | 17                      |
+| M3 nut                                      | 4                       |
+| LW-PLA                                      | 1 roll                  |
+| PETG                                        | Small amount            |
+| Polyester hinge 25x20mm                     | 11                      |
+| Pen spring                                  | 1                       |
+| Velcro strap                                | 2                       |
+| Servo extension cable                       | 3                       |
+| Control Horn                                | 3                       |
+| Pushrod                                     | 3                       |
 
 ## Recommended Electronics
 
